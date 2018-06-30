@@ -1,72 +1,22 @@
-
 {
-    "hotels": [
-        {
-            "name": "Andorra Alba El Tarter",
-            "frequency": "Daily",
-            "browser": [
-                "PC",
-                "Tablet"
-            ],
-            "urls": [
-                {
-                    "site": "pierreetvacances",
-                    "country": "es",
-                    "url": "https://www.pierreetvacances.com/es-es/fp_ONA_alquiler-apartamentos-apartamentos-andorra-alba-el-tarter?season=WINTER&duree=~total_days~&dated=~date_in~&",
-                    "url_parameters": {
-                        "date_format": "%Y-%m-%d",
-                        "dates": {
-                            "date_in": [
-                                "07-21",
-                                "08-21"
-                            ],
-                            "total_days": [
-                                7,
-                                14
-                            ]
-                        }
-                    }
-                },
-                {
-                    "site": "booking",
-                    "country": "es",
-                    "url": "https://www.booking.com/hotel/ad/pierre-amp-vacances-tarter-alba.es.html?label=gen173nr-1FCAEoggJCAlhYSDNYBGhGiAEBmAEKwgEDeDExyAEM2AEB6AEB-AELkgIBeagCAw;sid=60aca7da495043d783b77dca3a21b042;all_sr_blocks=195344601_94078210_3_0_0;bshb=2;checkin=~date_in~;checkout=~date_out~;dest_id=-1395312;dest_type=city;dist=0;group_adults=2;hapos=1;highlighted_blocks=195344601_94078210_3_0_0;hpos=1;room1=A%2CA;sb_price_type=total;srepoch=1524647068;srfid=e3c286a0d0efed4964862783bdeb5381428fa1ffX1;srpvid=419b3fcd80dd021b;type=total;ucfs=1&;selected_currency=EUR;changed_currency=1;top_currency=1#hotelTmpl",
-                    "url_parameters": {
-                        "dates": {
-                            "date_in": [
-                                "07-21",
-                                "08-21"
-                            ],
-                            "total_days": [
-                                7,
-                                14
-                            ]
-                        }
+    "glossary": {
+        "title": "example glossary",
+		"GlossDiv": {
+            "title": "S",
+			"GlossList": {
+                "GlossEntry": {
+                    "ID": "SGML",
+					"SortAs": "SGML",
+					"GlossTerm": "Standard Generalized Markup Language",
+					"Acronym": "SGML",
+					"Abbrev": "ISO 8879:1986",
+					"GlossDef": {
+                        "para": "A meta-markup language, used to create markup languages such as DocBook.",
+						"GlossSeeAlso": ["GML", "XML"]
                     },
-                    "headers": ""
-                },
-                {
-                    "site": "expedia",
-                    "country": "es",
-                    "url": "https://www.expedia.es/Andorra-Hoteles-Pierre-Vacances-Andorra-Alba-El-Tarter.h16319038.Informacion-Hotel?chkin=~date_in~&chkout=~date_out~&rm1=a2&hwrqCacheKey=89534524-4e5a-45e7-8e1c-be463f1c2676HWRQ1524652094562&cancellable=false&regionId=6175647&vip=false&c=dd3aec35-693f-4927-b439-6c69815339fc&&exp_dp=324.8&exp_ts=1524652094871&exp_curr=EUR&swpToggleOn=false&exp_pg=HSR",
-                    "url_parameters": {
-                        "date_format": "%d/%m/%Y",
-                        "dates": {
-                            "date_in": [
-                                "07-21",
-                                "08-21"
-                            ],
-                            "total_days": [
-                                7,
-                                14
-                            ]
-                        }
-                    },
-                    "headers": ""
+					"GlossSee": "markup"
                 }
-            ]
+            }
         }
-            ]
-        }
-    ]
+    }
 }
